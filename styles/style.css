@@ -19,15 +19,19 @@
 
 .header__links-list {
   display: flex;
-  gap: 31px;
+  gap: 32px;
   font-size: 18px;
   font-style: normal;
   list-style: circle;
 }
 
-.header__link {
+.header__links-list-item_no-bullit {
   list-style: none;
  }
+
+.header__link_active {
+	text-decoration: none;
+}
 
  .header__links-list-item {
   color: #000;
@@ -103,7 +107,6 @@
 
 .aligned-text_left {
   text-align: left;
-  padding-left: 20px;
 }
 
 .no-letter-spacing {
@@ -296,7 +299,7 @@ background-image: url('../images/card-lot-01.jpg');
   font-size: 18px;  
 }
 
-.footer__link {
+.footer__link_active {
   text-decoration: none;
 }
 
